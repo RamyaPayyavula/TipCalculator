@@ -1,0 +1,13 @@
+body {
+  text-align: center;
+}
+h2, div {
+  color: white;
+}
+.container {
+  background-color: darkslategray;
+  width: fit-content;
+  text-align: center;
+  margin: 0 auto;
+  padding: 32px;
+}

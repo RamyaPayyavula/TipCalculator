@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+    <h1>
+      Tip Calculator
+    </h1>
+    <div class="container">
+      <h2>Total bill amount</h2>
+      <input type="number" id="bill-total" placeholder="Enter bill amount" />
+      <h2>Service satisfaction</h2>
+      <select id="serviceSatisfaction">
+        <option value="Bad">Not satisfied 10%</option>
+        <option value="okay">less Satisfaied 13%</option>
+        <option value="good">Satisified 17%</option>
+        <option value="vergood">Amazing 20%</option>
+      </select>
+      <h2>Number of people</h2>
+      <input type="number" id="people" placeholder="Number of people" />
+      <br />
+      <br />
+      <input type="button" value="Submit" onclick="onSubmit()"/>
+      <h2 id="tip"></h2>
+    </div>
+  </body>
+</html>
